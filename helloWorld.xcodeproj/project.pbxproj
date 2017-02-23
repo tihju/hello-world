@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DEE6D1231E4C3DC6001A8002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6D1221E4C3DC6001A8002 /* AppDelegate.swift */; };
 		DEE6D1251E4C3DC6001A8002 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6D1241E4C3DC6001A8002 /* ViewController.swift */; };
-		DEE6D1281E4C3DC7001A8002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE6D1261E4C3DC7001A8002 /* Main.storyboard */; };
+		DEE6D1281E4C3DC7001A8002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE6D1261E4C3DC7001A8002 /* Main.storyboard */; settings = {ASSET_TAGS = (welcome, ); }; };
 		DEE6D12A1E4C3DC7001A8002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE6D1291E4C3DC7001A8002 /* Assets.xcassets */; };
 		DEE6D12D1E4C3DC7001A8002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE6D12B1E4C3DC7001A8002 /* LaunchScreen.storyboard */; };
 		DEE6D1381E4C3DC7001A8002 /* helloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6D1371E4C3DC7001A8002 /* helloWorldTests.swift */; };
@@ -187,6 +187,9 @@
 		DEE6D1171E4C3DC6001A8002 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					welcome,
+				);
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "TingTing Zhu";
